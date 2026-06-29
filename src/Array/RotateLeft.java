@@ -29,5 +29,14 @@ public class RotateLeft {
 
         }
 
+        arr[size - 1] = first;
+
+        // Print Rotated Array
+        System.out.println("Array after Left Rotate:");
+
+        for (int i = 0; i < size; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
+
 }
